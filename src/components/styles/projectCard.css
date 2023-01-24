@@ -13,11 +13,15 @@
 	.project-card {
 		width: 45%;
 	}
+
+	.card__image {
+		max-width: 500px;
+	}
 }
 
 .card__image {
 	object-fit: contain;
-	width: 80%;
+	width: 50%;
 	height: auto;
 	border: 2px solid #fff;
 	margin: auto;
