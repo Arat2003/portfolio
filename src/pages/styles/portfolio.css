@@ -1,0 +1,5 @@
+.portfolio {
+	margin: 90px 6vw 1.5rem;
+	display: flex;
+	flex-flow: row wrap;
+}

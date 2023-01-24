@@ -1,0 +1,13 @@
+.about-project__container {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin: 2rem 0;
+}
+
+.about-project__desc, .about-project__stack {
+	color: rgb(200, 200, 200);
+}
+
+.about-project__stack {
+	opacity: 0.5;
+}

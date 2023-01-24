@@ -1,0 +1,98 @@
+.about {
+	margin: 90px 12vw 1.5rem;
+	display: grid;
+}
+
+@media only screen and (min-width: 1100px) {
+	.about {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.about-info {
+		margin-left: 1rem;
+	}
+}
+
+.personal-info {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.personal-info__img {
+	/* margin-top: 90px; */
+	width: 40%;
+	max-width: 344px;
+	height: auto;
+	max-height: 600px;
+}
+
+.personal-info h2 {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+.contact {
+	display: flex;
+	flex-flow: column nowrap;
+	color: #fff;
+}
+
+.contact h2 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.contact a {
+	font-size: 1rem;
+	margin-bottom: 0.4rem;
+	color: #fff;
+	display: flex;
+}
+
+.contact p {
+	margin-right: 0.25rem;
+}
+
+.contact a#desktop {
+	text-decoration: none;
+}
+
+.contact a:hover {
+	text-decoration: underline !important;
+}
+
+.about-info {
+	margin-top: 1rem;
+	color: #fff;
+	line-height: 1.5;
+}
+
+.about-info .horizontal-rule {
+	width: 100px;
+}
+
+.about-info p {
+	font-weight: 400;
+}
+
+.skills {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.skills .horizontal-rule {
+	width: 75px;
+}
+
+.skills div {
+	margin-right: 1rem;
+}
+
+.skills li {
+	margin-left: 1rem;
+}
+
+.skills h2 {
+	margin-top: 0.75rem;
+}

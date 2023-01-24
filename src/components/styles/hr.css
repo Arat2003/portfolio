@@ -1,0 +1,8 @@
+.horizontal-rule {
+	color: #fff;
+	padding: 1rem 1rem 1rem 0;
+}
+
+.horizontal-rule div {
+	border: 1px solid #fff;
+}

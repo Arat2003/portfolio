@@ -1,0 +1,50 @@
+.project-card {
+	display: block;
+	border: 3px double #E0E0E0;
+	margin: 0.75rem;
+	padding: 1rem;
+	box-shadow: 10px 10px #fff;
+	width: 90%;
+	place-self: center;
+	text-align: center;
+}
+
+@media screen and (min-width: 1100px) {
+	.project-card {
+		width: 45%;
+	}
+}
+
+.card__image {
+	object-fit: contain;
+	width: 80%;
+	height: auto;
+	border: 2px solid #fff;
+	margin: auto;
+	border-radius: 15px;
+	margin-bottom: 1rem;
+
+	color: #fff;
+}
+
+.project-card a:any-link {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.card__title {
+	font-size: calc(1.3rem + 0.6vw);
+}
+
+.card__desc {
+	font-size: 1rem;
+	color: rgb(200, 200, 200);
+	margin: 1rem 0;
+}
+
+.link-text {
+	color: rgb(225, 225, 225);
+	text-decoration: rgb(225, 225, 225) underline;
+	margin: 0.25rem 0;
+}
+

@@ -1,0 +1,28 @@
+.metronome__container {
+	max-width: 30vmax;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.metronome__slider {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin: 10vmin 0;
+}
+
+.metronome__slider .divider {
+	border-top: 1px solid #fff;
+	margin: 10px 0;
+}
+
+.metronome__button {
+	background-color: lightblue;
+	padding: 1rem;
+	border: 1px solid #000;
+	border-radius: 2px;
+	color: #000;
+	font-size: 1rem;
+}
