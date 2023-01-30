@@ -142,7 +142,7 @@ const projects = [
 		stack: "React.js • HTML",
 	},
 	{
-		date: "May 2022 - July 2022",
+		date: "Dec 2022 - Jan 2023",
 		title: "Portfolio Page",
 		desc: "First portfolio page built trying to replicate petitmoulinstudio.com sticky divs.",
 		stack: "React.js",
