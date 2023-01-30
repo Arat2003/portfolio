@@ -151,7 +151,7 @@ const projects = [
 		date: "Apr 2020 - Jan 2021",
 		title: "Minestats",
 		desc: "Discord bot used by over 100k users in 750+ servers.",
-		stack: "TS • Discord.js v13",
+		stack: "TS • MongoDB • Discord.js v13",
 	},
 ];
 
